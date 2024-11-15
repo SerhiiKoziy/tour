@@ -1,0 +1,14 @@
+{
+    "name":  "FrontEnd-redesign",
+    "version":  1,
+  "content": {
+    "releaseRepository": true,
+    "teamName": "FrontEnd",
+    "teamEmail": "com",
+    "repositoryDocument": "./README.md",
+    "teamWiki": "",
+    "techLeadEmail": "",
+    "scrumMasterEmail": "",
+    "productOwnerEmail": ""
+  }
+}

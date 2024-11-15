@@ -1,0 +1,14 @@
+{
+  "$schema": "./node_modules/nx/schemas/workspace-schema.json",
+  "version": 2,
+  "projects": {
+    "demo-app": "apps/demo-app",
+    "ecomm-app": "apps/ecomm-app",
+    "ecomm-app-e2e": "apps/ecomm-app-e2e",
+    "ecomm-lib-feature": "libs/ecomm-lib/feature",
+    "ecomm-lib-shared-data-access": "libs/ecomm-lib/shared/data-access",
+    "ecomm-lib-shared-ui": "libs/ecomm-lib/shared/ui",
+    "shared-ui": "libs/shared/ui",
+    "shared-utils": "libs/shared/utils"
+  }
+}

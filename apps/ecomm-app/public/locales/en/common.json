@@ -1,0 +1,261 @@
+{
+  "description": "This is an i18n footer",
+  "subscribe": {
+    "ctaText": "Subscribe",
+    "subscribeBannerImage": "This is a image related to the subscription discounts",
+    "subscribed": "Subscribed!",
+    "subscriptionThanks": "Thanks for the subscription!",
+    "subscribeForDiscounts": "Subscribe for tours discounts",
+    "youWillReceiveDiscounts": "You will be receiving tours with discounts via email."
+  },
+  "labels": {
+    "max": "Max",
+    "guests": "Guests",
+    "adult": "Adult"
+  },
+  "aboutUs": {
+    "title": "About Us",
+    "aboutUsDetails": "With industry-leading flexibility and last-minute availability, it's never too late to make any day extraordinary. Plan ahead, or decide that morning. Change your dates. Or change your mind entirely! This is your time off, your way, and we're here to help.",
+    "yearsInTourism": "10+",
+    "yearsInTourismDetails": "Years in Tourism",
+    "uniqueTours": "400+",
+    "uniqueToursDetails": "Unique Tours across World",
+    "happyCustomers": "Millions of",
+    "happyCustomersDetails": "Happy Customers"
+  },
+  "tourHeader": {
+    "title": "Rome in a Day Tour With Colosseum and Vatican Museums",
+    "subTitle": "Explore the underground tunnels and arena floor with exclusive backdoor entrance",
+    "skip": "Skip the Line",
+    "water": "Water Activity",
+    "freeCancel": "Free Cancellation",
+    "share": "Share Tour",
+    "addToWishlist": "Add to Wishlist"
+  },
+  "whatIncluded": {
+    "title": "What’s included"
+  },
+  "tourOverview": {
+    "title": "Tour overview",
+    "description": "Is it possible to explore the best of Rome in one day? Well, Rome wasn’t built in a day, but you can see the most iconic places in a day with our experienced, local guides! In just 7 hours, you’ll be mesmerized under the Sistine Chapel, wowed at the Colosseum, and inspired at the Spanish Steps, Trevi Fountain, and much more. Your jam-packed day is stress free since tickets and transportation are included, so you can just enjoy your guide's compelling narratives."
+  },
+  "meetingDropOff": {
+    "title": "Meeting and drop-off point",
+    "description": "Between Hotel Alimandi and Caffé Vaticano, at the top of the big staircase (Viale Vaticano, 100). A representative will be there holding a sign with our company name on it."
+  },
+  "whatToBring": {
+    "title": "What to bring?",
+    "description": "Is it possible to explore the best of Rome in one day? Well, Rome wasn’t built in a day, but you can see the most iconic places in a day with our experienced, local guides! In just 7 hours, you’ll be mesmerized under the Sistine Chapel, wowed at the Colosseum, and inspired at the Spanish Steps, Trevi Fountain, and much more. Your jam-packed day is stress free since tickets and transportation are included, so you can just enjoy your guide's compelling narratives."
+  },
+  "faqs": {
+    "title":"FAQs",
+    "description": "Is it possible to explore the best of Rome in one day? Well, Rome wasn’t built in a day, but you can see the most iconic places in a day with our experienced, local guides! In just 7 hours, you’ll be mesmerized under the Sistine Chapel, wowed at the Colosseum, and inspired at the Spanish Steps, Trevi Fountain, and much more. Your jam-packed day is stress free since tickets and transportation are included, so you can just enjoy your guide's compelling narratives."
+  },
+  "mostPopularCities": {
+    "title": "Most Popular Cities",
+    "checkoutPopularCities": "Check out the most popular cities that travelers choose"
+  },
+  "ratings": {
+    "title": "Verified Traveler Reviews",
+    "ratings": "Ratings",
+    "leaveReview": "Leave a review",
+    "more": "Load more reviews"
+  },
+  "tourPreview": {
+    "photos": "Photos",
+    "allPhotos": "All Photos"
+  },
+  "navbar": {
+    "destinations": {
+      "title": "Destinations",
+      "description": "12 Destinations Across the World"
+    },
+    "attractions": {
+      "title": "Attractions",
+      "description": "234 Activities"
+    },
+    "cart": "Cart",
+    "upcomingTours": "Upcoming Tours",
+    "orderHistory": "Order History",
+    "accountDetails": "Account Details",
+    "giftCards": "Gift Cards",
+    "logout": "Log Out",
+    "continueWithGoogle": "Continue With Google",
+    "continueWithFacebook": "Continue With Facebook",
+    "or": "OR",
+    "createAccount": "Create Account",
+    "signInWithEmail": "Sign In With Email",
+    "wishlist": {
+      "title": "Wishlist",
+      "description": "Save Interested Tours"
+    },
+    "searchPlaceholder": "Las Vegas, Rome, Eiffel Tower...",
+    "signout": "SIGN OUT",
+    "currency": "Currency"
+  },
+  "itinerary": {
+    "title": "Itinerary & description",
+    "readMore": "Read more",
+    "readLess": "Read less"
+  },
+  "topDestinations": {
+    "title": "Top Destinations",
+    "experienceTheWorld": "Experience the world like a local"
+  },
+  "tourCard": {
+    "title": "Rome in a Day Tour With Colosseum and Vatican Museums Tickets",
+    "freeCancel": "Free Cancellation",
+    "description": "Your ticket also includes one entry to the Palatine Hill and Roman Forum, must-see sights for all those visiting the “Eternal City.” According to ancient tradition, this is the spot where Rome was born.",
+    "startFrom": "Starting from:",
+    "startTime": "Start Time ",
+    "smallGroup": "Small Group Tour",
+    "type": "Tour Type",
+    "sizeGroup": "Small Group Tour",
+    "price": "Price Details",
+    "adult": "Adult",
+    "morning": "Morning",
+    "totalPrice": "Total Price",
+    "addTour": "Add Tour to Cart"
+  },
+  "uniqueExperience": {
+    "title": "How we create a unique experience",
+    "post": {
+      "title": "Find Something People Love",
+      "subtitle": "From famous attractions to lesser known hidden gems."
+    },
+    "idea": {
+      "title": "Privileged Access",
+      "subtitle": "Visit a restricted area, visit at night, before opening. We get you where others can't."
+    },
+    "openMap": {
+      "title": "Certified Guides",
+      "subtitle": "Handpicked guides who are extremely qualified & passionate about history and storytelling."
+    },
+    "support": {
+      "title": "Dedicated Customer Service",
+      "subtitle": "Bookings, changes, or even just advice; we are like friends, always there for you."
+    }
+  },
+  "selectDate": {
+    "title": "Select participants and date",
+    "adults": "Adults",
+    "children": "Children",
+    "show": "Show similar tours on this day",
+    "similarTours": "There are some similar tours with available afternoon and evening time on this date.",
+    "check": "Check Available Tours"
+  },
+  "cartSummary": {
+    "title": "Cart Summary",
+    "subTitle": "Tours in the cart",
+    "subTitleSingular": "Tour in the cart",
+    "total": "Total",
+    "checkout": "Go to Checkout",
+    "sendCart": "Send cart to email",
+    "from": "from",
+    "collect": "to collect",
+    "discount": "discount",
+    "sendToEmail": "Send to email"
+  },
+  "voucher": {
+    "whatsapp": "Whatsapp",
+    "amountPaid": "Amount paid:",
+    "startingPoint": "Starting Point",
+    "warningText": "less than ideal warning text goes here",
+    "chat": "CHAT",
+    "arrive": "Arrive by:",
+    "start": "Tour Starts:",
+    "footerDescription":
+    "Our guides like to create memories that you can look back on after your tour is over by offering to take photos of you and your group. We sometimes post client photos on our social media channels and website but if you prefer not to have your photo taken or posted, please reach out to let us know.",
+    "email": "Email",
+    "phone": "Phone",
+    "downloadVoucher": "Download Voucher",
+    "addToWallet": "Add to Apple Wallet"
+  },
+  "voucherList": {
+    "yourVouchers": "Your Vouchers",
+    "downloadAll": "Download All",
+    "address": "Address",
+    "email": "Email",
+    "phone": "Phone",
+    "date": "Date",
+    "time": "Time",
+    "details": "Details"
+  },
+  "heroDestinations": {
+    "title": "The Tour Guy Destinations",
+    "experience": "Experience the world like a local"
+  },
+  "recentSearchesSimple": {
+    "title": "Recently Searched"
+  },
+  "destinations": {
+    "destinations": "destinations",
+    "destination": "destination",
+    "europe": "Europe",
+    "unitedStates": "United States"
+  },
+  "account": {
+    "title": "My Account",
+    "giftCards": "Gift Cards",
+    "order": "Order",
+    "tours": "Tours",
+    "upcomingTours": {
+      "title": "Upcoming Tours",
+      "youDontHave": "You don’t have upcoming tours yet :(",
+      "seeAll": "See all Attractions"
+    },
+    "orderHistory": {
+      "title": "Order History",
+      "youDontHave": "You don’t have orders yet :("
+    },
+    "accountDetails": {
+      "title": "Account Details",
+      "personalInfo": "Personal Info",
+      "first": "First Name",
+      "last": "Last Name",
+      "email": "Email",
+      "phone": "Phone Number (Optional)",
+      "security": "Security",
+      "changePassword": "Change Password",
+      "changedOn": "Changed on",
+      "saveChanges": "Save Changes",
+      "location": "Location",
+      "country": "Country",
+      "city": "City (Optional)"
+    }
+  },
+  "travelInsurance": {
+    "title": "Travel Insurance",
+    "description": "Life can be unpredictable and our cancellation policy is as good as it gets for tours in Europe. We offer 24 hours prior to your tour start time to cancel almost free of charge. The problem is 99% of people that cancel or can’t make their tour do so within the 24 hours. A majority of no-shows or cancellations are due to a cancelled flight, traffic or a delayed train.",
+    "btnTitle": "Purchase Travel Insurance",
+    "howItWorks": "How it Works",
+    "ourPolicy": "Our policy is created this way to protect our tour guides. If a tour is cancelled, this gives them enough time to be scheduled on another tour and continue to work. Our season is only about 6 to 8 months long so tour guides need assurance that they will be provided work.",
+    "weRecommendTravelInsurance": "We recommend travel insurance to protect you from what happens within the 24 hour cancellation policy. So don’t take a risk and ensure your tours and travel with a well-known travel insurance company.",
+    "recommendations": "Recommendations",
+    "weRecommendTravelGuard": "We recommend Travel Guard, but shop around and make sure you get everything in writing. The Tour Guy recommends Travel Guard, but we don’t get involved in the policies before, during or after purchase. We can’t guarantee they will cover everything so ask a lot of questions and like I said, get it in writing!",
+    "onePiece": "One piece of advice we will give is that they will only cover losses or damages if you have official documentation. If your train is delayed or cancelled, they’ll want a letter from the train company. If your bag is lost or stolen, they’ll want a police report. Also, book your policy within 15 days of purchasing your travel."
+  },
+  "helpCenter": {
+    "title": "Help Center",
+    "subTitle": "Find an answer to your question",
+    "askedQuestions": "Frequently Asked Questions"
+  },
+  "haveQuestion": {
+    "stillHave": "Still have a question?",
+    "sendMessage": "Send a message to support team",
+    "alsoYouCan": "Also, you can send a direct message to email:",
+    "phoneCalls": "Phone calls (USA or Canada)",
+    "sendQuestion": "Send Question",
+    "yourQuestion": "Your Question",
+    "iWant": "I want to ask...",
+    "yourName": "Your Name",
+    "contactEmail": "Contact Email",
+    "email": "info@visit.com",
+    "phoneNumber": "+1 888 290 5595"
+  },
+  "bookNow": {
+    "from": "From",
+    "perPerson": "per person",
+    "bookNow": "Book Now"
+  }
+}

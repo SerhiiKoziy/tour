@@ -1,0 +1,70 @@
+{
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/ecomm-app",
+  "projectType": "application",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/next:build",
+      "outputs": ["{options.outputPath}"],
+      "defaultConfiguration": "production",
+      "includeDevDependenciesInPackageJson": false,
+      "options": {
+        "root": "apps/ecomm-app",
+        "outputPath": "dist/apps/ecomm-app",
+        "assets": [
+          {
+            "input": "apps/ecomm-app",
+            "glob": "next-i18next.config.js",
+            "output": "./../next-i18next.config.js"
+          }
+        ]
+      },
+      "configurations": {
+        "development": {
+          "outputPath": "apps/ecomm-app"
+        },
+        "production": {}
+      }
+    },
+    "serve": {
+      "executor": "@nrwl/next:server",
+      "defaultConfiguration": "development",
+      "options": {
+        "buildTarget": "ecomm-app:build",
+        "dev": true
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "ecomm-app:build:development",
+          "dev": true
+        },
+        "production": {
+          "buildTarget": "ecomm-app:build:production",
+          "dev": false
+        }
+      }
+    },
+    "export": {
+      "executor": "@nrwl/next:export",
+      "options": {
+        "buildTarget": "ecomm-app:build:production"
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/apps/ecomm-app"],
+      "options": {
+        "jestConfig": "apps/ecomm-app/jest.config.ts",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["apps/ecomm-app/**/*.{ts,tsx,js,jsx}"]
+      }
+    }
+  },
+  "tags": []
+}

@@ -1,0 +1,16 @@
+export * from './TTG';
+export { default as AmericanExpress } from './AmericanExpress';
+export { default as DinersClub } from './DinersClub';
+export { default as DiscoverCard } from './Discover';
+export { default as AltFacebook } from './AltFacebook';
+export { default as Facebook } from './Facebook';
+export { default as Google } from './Google';
+export { default as Instagram } from './Instagram';
+export { default as Jcb } from './Jcb';
+export { default as Klarna } from './Klarna';
+export { default as Mastercard } from './Mastercard';
+export { default as Pinterest } from './Pinterest';
+export { default as Visa } from './Visa';
+export { default as Youtube } from './Youtube';
+export { default as Wallet } from './Wallet';
+export { default as Whatsapp } from './Whatsapp';

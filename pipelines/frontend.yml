@@ -1,0 +1,23 @@
+pool:
+  name: TTG-22
+steps:
+  - task: NodeTool@0
+    displayName: 'Use Node 16.x'
+    inputs:
+      versionSpec: 16.x
+      checkLatest: true
+  - script: npm ci
+  - script: npx nx workspace-lint
+  - script: |
+      npx nx build
+    displayName: 'Build '
+
+  - script: md Dist1
+  - script: xcopy /s dist\apps\ecomm-app\.next\static  dist\apps\ecomm-app\.next\standalone\dist\apps\ecomm-app\.next\static\*.
+  - script: xcopy /s dist\apps\ecomm-app\.next\standalone  Dist1\*.
+
+  - task: PublishBuildArtifacts@1
+    displayName: 'Publish Artifact: production_drop'
+    inputs:
+      PathtoPublish: 'dist1'
+      ArtifactName: 'prod_drop'

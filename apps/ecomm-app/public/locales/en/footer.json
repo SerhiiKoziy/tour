@@ -1,0 +1,25 @@
+{
+    "letsPartner": "Lets Partner",
+    "supplierSignup": "Supplier Signup",
+    "affiliatesAndResellers": "Affiliates & Resellers",
+    "joinOurGuides": "Join Our Guides",
+    "travelAgents": "Travel Agents",
+    "gitCards": "Gift Cards",
+    "privacyAndTerms": "Privacy & Terms",
+    "termsAndConditions": "Terms & Conditions",
+    "privacyPolicy": "Privacy Policy",
+    "cancellationPolicy": "Cancellation Policy",
+    "travelInsurance": "Travel Insurance",
+    "contactUs": "Contact Us",
+    "contactEmail": "info@visit.com",
+    "contactPhone": "+1 888 290 5595 (USA or Canada)",
+    "contactInternational": {
+        "description": "International numbers",
+        "contacts": [
+            "+57 602 222 2222 (Colombia)"
+        ]
+    },
+    "pressContact": "Press, Bloggers & Influecer",
+    "social": "Social",
+    "copyright": "Copyright \u00A9 {{year}} The Roman Guy, Inc. All rights reserved."
+}

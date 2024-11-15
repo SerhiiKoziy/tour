@@ -1,0 +1,30 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2017", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@visit/ecomm-lib/feature": ["libs/ecomm-lib/feature/src/index.ts"],
+      "@visit/ecomm-lib/shared/data-access": [
+        "libs/ecomm-lib/shared/data-access/src/index.ts"
+      ],
+      "@visit/ecomm-lib/shared/ui": [
+        "libs/ecomm-lib/shared/ui/src/index.ts"
+      ],
+      "@visit/shared/ui": ["libs/shared/ui/src/index.ts"],
+      "@visit/shared/utils": ["libs/shared/utils/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}

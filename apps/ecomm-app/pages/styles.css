@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+/* Shared UI - Carousel styles */
+
+@import 'keen-slider/keen-slider.min.css';
+
+.navigation-wrapper {
+  position: relative;
+}
+
+.dots {
+  display: flex;
+  padding: 10px 0;
+  justify-content: center;
+}
+
+.dot {
+  border: none;
+  width: 10px;
+  height: 10px;
+  background: #c5c5c5;
+  border-radius: 50%;
+  margin: 0 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.dot:focus {
+  outline: none;
+}
+
+.dot.active {
+  background: #000;
+}
+
+.arrow {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  fill: rgba(198, 198, 198, 0.952);
+  cursor: pointer;
+}
+
+.arrow--left {
+  left: 5px;
+}
+
+.arrow--right {
+  left: auto;
+  right: 5px;
+}
+
+.arrow--disabled {
+  fill: rgba(255, 255, 255, 0.5);
+}
+
+/* Shared UI - DatePicker component */
+
+@import 'react-multi-date-picker/styles/layouts/mobile.css';
+
+.ttg-datePicker {
+  width: 100%;
+}
+
+.ttg-datePicker .rmdp-wrapper {
+  background-color: #fff;
+  border-radius: 0.375rem;
+  border: 1px solid #f9fafa;
+  outline: 2px solid transparent;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.ttg-calendar.rmdp-wrapper {
+  border: none;
+  box-shadow: none;
+  z-index: 10 !important;
+}
+
+.ttg-calendar .rmdp-header-values,
+.ttg-datePicker .rmdp-header-values {
+  font-weight: 700;
+}
+
+.ttg-calendar .rmdp-week-day,
+.ttg-datePicker .rmdp-week-day {
+  width: 3rem;
+  height: 3.5rem;
+  color: #757c7f;
+  font-size: 0.75rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  border-bottom: 1px solid #e8ebed;
+}
+
+.ttg-calendar .rmdp-day,
+.ttg-datePicker .rmdp-day {
+  width: 3rem;
+  height: 3.5rem;
+}
+
+.ttg-calendar .rmdp-day span,
+.ttg-datePicker .rmdp-day span {
+  border-radius: 0.5rem;
+  box-shadow: none;
+}
+
+.ttg-calendar .rmdp-day span p:nth-of-type(2),
+.ttg-datePicker .rmdp-day span p:nth-of-type(2) {
+  color: #757c7f;
+}
+
+.ttg-calendar .rmdp-day.rmdp-today span {
+  color: #757c7f;
+  background-color: #fff;
+}
+
+.ttg-datePicker .rmdp-day.rmdp-today span {
+  color: #ff3e3e;
+  background-color: #ff3e3e1a;
+}
+
+.ttg-calendar .rmdp-day.rmdp-selected span:not(.highlight),
+.ttg-datePicker .rmdp-day.rmdp-selected span:not(.highlight) {
+  color: #ff3e3e;
+  box-shadow: none;
+  background-color: #fff;
+  border: 1px solid #ff3e3e;
+}
+
+.ttg-calendar .rmdp-day:not(.rmdp-disabled):not(.rmdp-day-hidden) span:hover,
+.ttg-datePicker .rmdp-day:not(.rmdp-disabled):not(.rmdp-day-hidden) span:hover {
+  color: #2b2e2f;
+  background-color: #fff;
+  border: 1px solid #757c7f;
+}
+
+.ttg-calendar .rmdp-month-picker .rmdp-day,
+.ttg-datePicker .rmdp-month-picker .rmdp-day {
+  margin: 0.25rem;
+  border-radius: 0.5rem;
+  border: 1px solid #e8ebed;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ttg-calendar .rmdp-month-picker .rmdp-day span,
+.ttg-datePicker .rmdp-month-picker .rmdp-day span {
+  position: relative;
+  top: unset;
+  left: unset;
+  right: unset;
+  bottom: unset;
+}
+
+.ttg-calendar .rmdp-month-picker .rmdp-day::before,
+.ttg-datePicker .rmdp-month-picker .rmdp-day::before {
+  content: url("data:image/svg+xml;charset=UTF-8, <svg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'><path d='M31,7.8a4,4,0,0,0-4-4H5a4,4,0,0,0-4,4V27a4,4,0,0,0,4,4H27a4,4,0,0,0,4-4V7.8Zm-2,0V27a2,2,0,0,1-2,2H5a2,2,0,0,1-2-2V7.8a2,2,0,0,1,2-2H27a2,2,0,0,1,2,2Z' transform='translate(-1 -1)' fill-rule='evenodd'/><path d='M8,2V7.6a1,1,0,1,0,2,0V2A1,1,0,0,0,8,2Z' transform='translate(-1 -1)' fill-rule='evenodd'/><path d='M2,14.2H30v-2H2Z' transform='translate(-1 -1)' fill-rule='evenodd'/><path d='M22,2V7.6a1,1,0,1,0,2,0V2a1,1,0,0,0-2,0Z' transform='translate(-1 -1)' fill-rule='evenodd'/><circle cx='1.505' cy='1.505' r='1.505' transform='translate(5.795 15.595)'/><circle cx='1.505' cy='1.505' r='1.505' transform='translate(13.495 15.595)'/><circle cx='1.505' cy='1.505' r='1.505' transform='translate(21.195 15.595)'/><circle cx='1.505' cy='1.505' r='1.505' transform='translate(21.195 22.486)'/><circle cx='1.505' cy='1.505' r='1.505' transform='translate(13.495 22.486)'/><circle cx='1.505' cy='1.505' r='1.505' transform='translate(5.795 22.486)'/></svg>");
+  margin-bottom: 0.25rem;
+  width: 15px;
+  height: 15px;
+}
+
+.ttg-calendar .rmdp-month-picker .rmdp-day.rmdp-selected,
+.ttg-datePicker .rmdp-month-picker .rmdp-day.rmdp-selected {
+  border: 1px solid #ff3e3e;
+}
+
+.ttg-calendar .rmdp-month-picker .rmdp-day.rmdp-selected span:not(.highlight),
+.ttg-calendar
+  .rmdp-month-picker
+  .rmdp-day:not(.rmdp-disabled):not(.rmdp-day-hidden)
+  span:hover,
+.ttg-datePicker .rmdp-month-picker .rmdp-day.rmdp-selected span:not(.highlight),
+.ttg-datePicker
+  .rmdp-month-picker
+  .rmdp-day:not(.rmdp-disabled):not(.rmdp-day-hidden)
+  span:hover {
+  border: none;
+}
